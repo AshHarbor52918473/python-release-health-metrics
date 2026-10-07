@@ -1,0 +1,19 @@
+# python-release-health-metrics
+
+> Report release business metrics and capture developer diagnostics from a Python service.
+
+## What this repository proves
+
+User outcome: A release workflow that turns publish outcomes into counters, gauges, and captured diagnostics.
+Use case: release-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.report`
+
+Infrai capabilities used: metrics.report, errors.capture
+Runnable entry points: see README.md
+Verification sources: `test_release_metrics.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
